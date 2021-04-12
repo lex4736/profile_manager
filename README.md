@@ -1,4 +1,4 @@
-# ***Digital Notepad***
+# ***Profile Manager***
 
   
 ## ✦ Description of Project
