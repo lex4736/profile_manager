@@ -1,22 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./App.css";
-import Table from '../src/components/layout';
+import Content from "./components/content";
 
-export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: null
-    };
-  }
 
-  componentDidMount() {
-    fetch('https://randomuser.me/api/?results=50').then((response) => response.json()).then((data) => {
-      this.setState({ data });
-    });
-  }
 
-  render() {
-    return <div>{this.state.data && <Table employees={this.state.data} />}</div>;
-  }
+
+function App() {
+  return (
+    <div className="container02">
+    
+      <h1> PROFILE MANAGER </h1>
+                Below you can view information regarding existing employees. Use the filter option to find a specific employee or click on the "name" column to sort through the employees
+                <br></br><br></br>
+        <Content />
+
+    </div>
+  );
 }
+
+export default App;

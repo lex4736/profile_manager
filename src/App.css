@@ -5,6 +5,13 @@ body {
   margin: 0; 
   padding-left: 25px;
 }
+h1{
+  text-shadow: 2px 2px 4px white;
+  color: slategrey;
+  font-size: 35px;
+  font-family: 'Abel';
+  border: black;
+}
 h2, p, ul, li {
   font-family: 'Abel', cursive;
 }
@@ -24,26 +31,12 @@ color: skyblue;
 a:active {
 color: lightsteelblue;
 }
-.top {
-text-shadow: 2px 2px 4px white;
-color: slategrey;
-font-size: 45px;
-font-family: 'Abel';
-border: black;
-padding: 0px;
-}
 .container02 {
   width: 100%;
   height: auto;
   text-align: center;
   align-content: center;
   
- }
-.coname {
-  color: steelblue;
-  font-size: 1.5vw;
-  padding: 5px;
-  align-content: center;
 }
 .table{
   border:rgb(240, 237, 237);
@@ -52,32 +45,25 @@ padding: 0px;
   text-align: center;
   color: gray;
 }
-  .thead1{
-  background-color: rgb(218, 222, 228);  
-  font-weight: lighter;
-  border: lightgray;
-  border-style: solid;
-  border-width: 1px;
-  font-size: 14px;
-  padding: 0px;
-  }
   .thead2{
     background-color: rgb(218, 222, 228); 
     font-weight: lighter;
     border: lightgray;
     border-style: solid;
     border-width: 1px;
-    width: 900px;
     text-align: center;
-    padding-bottom: 2PX;
+    padding-bottom: 5PX;
     font-size: 12px;
-    }
-    .table-row {
-      border: lightgray;
-      border-style: solid;
-      border-width: 1px;
     }
     .form-control {
       width: 35%;
       height: auto;
+      text-align: center;
+    }
+    tr {
+      background: rgb(235, 236, 238); 
+    }
+    th {
+      background: rgb(199, 201, 204); 
+      padding: 5px;
     }
