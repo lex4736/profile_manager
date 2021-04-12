@@ -2,7 +2,7 @@
 
   
 ## ✦ Description of Project
-  #### Axios powered application that grabs data from the Random User API. It displays a react based single webpage that shows information for a list employees. There is also a filter option that allows user to find a specific employee based on first or last name
+  #### Axios powered application that grabs data from the Random User API. It displays a react based single webpage that shows information for a list of employees. it features a filter option that allows a user to find a specific employee as well as a sort feature that will sort the name in ascending or decending order alphabetical order 
 
   ----
 ## ✦ Table of Contents
